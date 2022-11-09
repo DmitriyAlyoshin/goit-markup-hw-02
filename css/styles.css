@@ -129,6 +129,12 @@ body {
     background-color: var(--button-bgd-color);
 }
 
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
 /* -----Our features----- */
 
 
@@ -144,6 +150,10 @@ body {
 }
 
 /* --------------------Main Portfolio Part!-------------------- */
+
+.portfolio-list {
+    background-color: var(--primary-white-color);
+}
 
 
 /* --------------------Site footer!-------------------- */
@@ -161,6 +171,8 @@ body {
 
     font-style: normal;
 }
+
+/* hover and focus for google-map didn't do */
 
 .footer-address {
     color: var(--primary-white-color);
