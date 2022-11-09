@@ -1,0 +1,92 @@
+:root {
+    --primery-color: #757575;
+    --secondary-color: #212121;
+}
+
+body {
+    color: var(--primery-color);
+    background-color: #F5F5F5;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* головний колір тексту #757575 */
+/* колір посилань заголовків #212121 */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* контакти footer #FFFFFF 60 % */
+
+/* ----------Site Header!---------- */
+
+/* -----Logo----- */
+
+.logo-header {
+    color: #000000;
+}
+
+.logo-part {
+    color: #2196F3;
+}
+
+.logo-header:hover,
+.logo-header:focus {
+    color: #2196F3;
+}
+
+/* -----Site nav----- */
+
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.site-nav .link.current {
+    color: #2196F3;
+}
+
+/* .site-nav .link:active {
+    color: green;
+} */
+
+/* .site-nav .link:visited {
+    color: #000000;
+} */
+
+/* -----Contacts header----- */
+
+.contacts-header .link {
+    color: var(--primery-color);
+}
+
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+    color: #2196F3;
+}
+
+/* ----------Main Part!---------- */
+
+/* -----Hero----- */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero .hero-title {
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
