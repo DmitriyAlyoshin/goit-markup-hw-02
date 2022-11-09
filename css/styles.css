@@ -1,11 +1,19 @@
 :root {
-    --primery-color: #757575;
-    --secondary-color: #212121;
+    --primary-color: #757575;
+    --title-and-btn-color: #212121;
+    --primary-bgd-color: #F5F5F5;
+    --secondary-bgd-color: #F5F4FA;
+    --footer-bgd-color: #2F303A;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --footer-contacts-color: #ffffff60;
+    --primary-black-color: #000000;
+    --button-bgd-color: #F5F4FA;
 }
 
 body {
-    color: var(--primery-color);
-    background-color: #F5F5F5;
+    color: var(--primary-color);
+    background-color: var(--primary-bgd-color);
 }
 
 .list {
@@ -16,42 +24,61 @@ body {
     text-decoration: none;
 }
 
+.title {
+    color: var(--title-and-btn-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 /* головний колір тексту #757575 */
 /* колір посилань заголовків #212121 */
 /* білий #FFFFFF */
 /* акцент #2196F3 */
 /* контакти footer #FFFFFF 60 % */
 
-/* ----------Site Header!---------- */
+/* --------------------Site Header!-------------------- */
 
 /* -----Logo----- */
 
+.page-header {
+    background-color: var(--primary-white-color);
+}
+
 .logo-header {
-    color: #000000;
+    color: var(--primary-black-color);
 }
 
 .logo-part {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .logo-header:hover,
 .logo-header:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* -----Site nav----- */
 
 .site-nav .link {
-    color: #212121;
+    color: var(--title-and-btn-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .site-nav .link.current {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* .site-nav .link:active {
@@ -65,28 +92,85 @@ body {
 /* -----Contacts header----- */
 
 .contacts-header .link {
-    color: var(--primery-color);
+    color: var(--primary-color);
 }
 
 .contacts-header .link:hover,
 .contacts-header .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-/* ----------Main Part!---------- */
+/* --------------------Main Index Part!-------------------- */
 
 /* -----Hero----- */
+
+/* In the future there'll be img */
 
 .hero {
     background-color: #2F303A;
 }
 
 .hero .hero-title {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
-.hero-btn {
-    color: #FFFFFF;
-    background-color: #2196F3;
+/* -----Buttons!----- */
+
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
     cursor: pointer;
+}
+
+.button.primary {}
+
+.button.secondary {
+    color: var(--title-and-btn-color);
+    background-color: var(--button-bgd-color);
+}
+
+/* -----Our features----- */
+
+
+
+/* -----Our progects----- */
+
+
+
+/* -----Our team----- */
+
+.team {
+    background-color: var(--secondary-bgd-color);
+}
+
+/* --------------------Main Portfolio Part!-------------------- */
+
+
+/* --------------------Site footer!-------------------- */
+
+
+.page-footer {
+    background-color: var(--footer-bgd-color);
+}
+
+.logo-footer {
+    color: var(--primary-white-color);
+}
+
+.contacts-footer {
+
+    font-style: normal;
+}
+
+.footer-address {
+    color: var(--primary-white-color);
+}
+
+.footer-mail.link {
+    color: var(--footer-contacts-color);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+    color: var(--accent-color);
 }
