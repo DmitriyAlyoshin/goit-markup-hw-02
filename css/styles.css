@@ -1,7 +1,6 @@
 :root {
     --primary-color: #757575;
     --title-and-btn-color: #212121;
-    --primary-bgd-color: #F5F5F5;
     --secondary-bgd-color: #F5F4FA;
     --footer-bgd-color: #2F303A;
     --accent-color: #2196F3;
@@ -14,7 +13,7 @@
 
 body {
     color: var(--primary-color);
-    background-color: var(--primary-bgd-color);
+    background-color: var(--primary-white-color);
 
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
@@ -53,7 +52,6 @@ body {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
@@ -227,7 +225,7 @@ body {
 /* --------------------Main Portfolio Part!-------------------- */
 
 .filtr {
-    background-color: var(--primary-bgd-color);
+    background-color: var(--primary-white-color);
 }
 
 .filtr-list {
