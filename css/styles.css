@@ -43,12 +43,6 @@ body {
     overflow: hidden;
 }
 
-/* головний колір тексту #757575 */
-/* колір посилань заголовків #212121 */
-/* білий #FFFFFF */
-/* акцент #2196F3 */
-/* контакти footer #FFFFFF 60 % */
-
 /* --------------------Site Header!-------------------- */
 
 /* -----Logo----- */
@@ -98,14 +92,6 @@ body {
     color: var(--accent-color);
 }
 
-/* .site-nav .link:active {
-    color: green;
-} */
-
-/* .site-nav .link:visited {
-    color: #000000;
-} */
-
 /* -----Contacts header----- */
 
 .contacts-header .link {
@@ -126,7 +112,7 @@ body {
 
 /* -----Hero----- */
 
-/* In the future there'll be img */
+/* In the future there'll be image */
 
 .hero {
     background-color: #2F303A;
@@ -221,11 +207,11 @@ body {
     background-color: var(--secondary-bgd-color);
 }
 
-.team .list {
+.team .team-list {
     background-color: var(--primary-white-color);
 }
 
-.team .title {
+.team .title-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -240,8 +226,24 @@ body {
 
 /* --------------------Main Portfolio Part!-------------------- */
 
-.portfolio-list {
-    background-color: var(--primary-white-color);
+.filtr {
+    background-color: var(--primary-bgd-color);
+}
+
+.filtr-list {
+    background-color: var(--primary-white-color)
+}
+
+.filtr .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.filtr .text {
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 
@@ -254,18 +256,12 @@ body {
 
 .logo-footer {
     color: var(--primary-white-color);
-
 }
 
 /* .logo-footer:hover,
 .logo-footer:focus {
     color: var(--accent-color);
 } */
-
-.contacts-footer {
-
-    font-style: normal;
-}
 
 /* hover and focus for google-map didn't do speciality */
 
@@ -280,4 +276,10 @@ body {
 .footer-mail:hover,
 .footer-mail:focus {
     color: var(--accent-color);
+}
+
+.page-footer .contacts-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
 }
